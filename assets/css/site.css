@@ -1432,7 +1432,8 @@ html[data-hero-art="fan"] .platforms-fan { display: none; }
 /* The header's lockup at 128 px, above the Brand page's 96 px minimum, with
    half the icon's height (16 px) clear before the tagline. */
 .footer-logo { display: inline-flex; margin-bottom: var(--space-4); }
-.footer-logo img { width: 128px; height: auto; }
+/* Match the footer logo width to the four social icon tiles. */
+.footer-logo img { width: 168px; height: auto; }
 .footer-tagline {
   margin: 0;
   font-family: var(--font-display);
